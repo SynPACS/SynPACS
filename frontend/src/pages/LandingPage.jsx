@@ -90,8 +90,12 @@ const LandingPage = () => {
       {/* Hero Section */}
       <div className="text-center space-y-8 py-16">
         <div className="flex justify-center mb-8">
-          <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-            <Activity className="text-white" size={40} />
+          <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
+            <img
+              src="/logo.png"  // <-- replace with your image path
+              alt="SynPACS Logo"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
         <h1 className="text-5xl font-bold text-gray-900 leading-tight">
@@ -551,8 +555,15 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <Activity className="text-white" size={24} />
+              </div> */}
+              <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
+                <img
+                  src="/logo.png"  // <-- replace with your image path
+                  alt="SynPACS Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">SynPACS</h1>
@@ -637,8 +648,12 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6">
             <div className="flex items-center justify-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <Activity className="text-white" size={24} />
+              <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
+                <img
+                  src="/logo.png"  // <-- replace with your image path
+                  alt="SynPACS Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <h3 className="text-2xl font-bold">Synpacs</h3>
